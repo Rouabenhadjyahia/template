@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Roboto");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/Button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+body {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+}
+h1,h2 {
+	color: #ffdd93;
+	size: 40px;
+}
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #999b84;
+}
+
+a {
+	text-decoration: none;
+}
+.card-white {
+background-color: white;
+padding: 30px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0,20);
+border-radius: 4px;
+margin: 20px 0px;
+text-align: center;
+text-align: auto;
+background: none;
+padding: 30px;
+border: 20px;
+margin: auto;
+ }
+
+
+.card {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px,
+}
+.card img {
+	width: 150px;
+}
+.card h3{
+	flex-grow: 1;
+	padding-left: 20px;
+}
